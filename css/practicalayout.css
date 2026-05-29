@@ -1,0 +1,24 @@
+* {
+    border: 1px white solid;
+}
+
+.header{
+    height: 60px;
+}
+
+.content {
+    height: 80vh;
+}
+
+.contenedor-cajas{
+    height: 80vh;
+}
+
+.seccion{
+    background-color: grey;
+}
+
+.caja {
+    height: 400px;
+    background-color: lightblue;
+}
