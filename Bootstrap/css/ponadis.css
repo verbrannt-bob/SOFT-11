@@ -1,0 +1,24 @@
+.logo small{
+    font-size: 10px;
+    display: block;
+    margin-top: -4px;
+}
+
+.ponadis-usuario{
+    font-family: Helvetica, sans-serif;
+}
+
+.usuario-menu {
+    display: none;
+}
+
+.usuario-menu.activo {
+    display: block;
+    position: fixed;
+    right: 3%;
+}
+
+.formulario {
+    margin-top: 20px;
+    width: 20vw;
+}
