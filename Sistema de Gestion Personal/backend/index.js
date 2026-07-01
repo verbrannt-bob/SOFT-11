@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 3000; //Usar el puerto indicado en .env o si no
 
 // Importación de rutas
 const certificacionRoute = require("./routes/certificacion.route");
+const empleadoRoute = require("./routes/empleado.route");
 
 
 
@@ -27,6 +28,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // Rutas
 app.use("/certificaciones", certificacionRoute);
+app.use("/empleados", empleadoRoute);
 
 
 
