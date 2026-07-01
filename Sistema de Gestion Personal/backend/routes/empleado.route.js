@@ -35,7 +35,7 @@ router.get("/", async (req, res) => {
     }
 });
 
-router.put("/agregar-certificacion", async(req, res) {
+router.put("/agregar-certificacion", async(req, res) => {
     const {correo, centificacionId} = req.body;
 
     //validar los campos obligatorios
@@ -52,4 +52,4 @@ router.put("/agregar-certificacion", async(req, res) {
 
 })
 
-module.exports = router;
+module.exports = router;git
